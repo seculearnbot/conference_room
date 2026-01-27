@@ -34,6 +34,8 @@ soupsieve==2.2.1
 typing-extensions==3.10.0.0
 uritemplate==3.0.1
 urllib3==1.26.6
+psycopg2-binary==2.9.9
 Werkzeug==2.0.1
 zipp==3.5.0
+
 
