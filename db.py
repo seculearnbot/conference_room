@@ -1,14 +1,13 @@
-import psycopg2
+import psycopg
 import credential
 
 def get_connection():
-    """Create connection to PostgreSQL database"""
-    return psycopg2.connect(
+    return psycopg.connect(
         host=credential.host,
         port=credential.port,
         user=credential.user,
         password=credential.password,
-        database=credential.databasename
+        dbname=credential.databasename
     )
 
 def login_teacher(email, password):
