@@ -30,10 +30,9 @@ requests==2.26.0
 rsa==4.7.2
 six==1.16.0
 soupsieve==2.2.1
-typing-extensions==3.10.0.0
+typing-extensions==4.1.1  # تغییر از 3.10.0.0 به 4.1.1
 uritemplate==3.0.1
 urllib3==1.26.6
 Werkzeug==2.0.1
 zipp==3.5.0
 psycopg[binary]==3.1.18
-
